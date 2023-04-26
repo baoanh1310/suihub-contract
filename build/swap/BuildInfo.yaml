@@ -1,0 +1,25 @@
+---
+compiled_package_info:
+  package_name: swap
+  address_alias_instantiation:
+    beneficiary: 0631d94f22ff532ba169402aa567092c9e57d6117aef2750bb56c0f4356c848b
+    controller: 0631d94f22ff532ba169402aa567092c9e57d6117aef2750bb56c0f4356c848b
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    swap: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 1F6D2D5289307BBD8B0B8163645C0C9520E04DB261D254806A1719CA390BC8A0
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib
+  - Sui

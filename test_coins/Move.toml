@@ -1,0 +1,12 @@
+[package]
+name = "test-coins"
+version = "1.0.0"
+
+[dependencies]
+#Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "testnet" }
+#Sui = { local = "../../sui/crates/sui-framework" }
+swap = { local = "../" }
+
+[addresses]
+test = "0x0"
